@@ -1,7 +1,63 @@
-.navbar {
-  background-color: bisque;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: bisque;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(Gambar/magic-glowing-black-background-purple-and-green-wallpaper-wallpaper-preview.jpg);
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-color: #14676a;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  width: 98%;
+}
+.nav #myprofile {
+  font-family: "Edu TAS Beginner", cursive;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav ul li {
+  padding: 0 5px;
+}
+.nav ul li a {
+  color: bisque;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.nav ul li a:hover {
   color: black;
 }
-.jumbotron {
-  background-image: url("Gambar/magic-glowing-black-background-purple-and-green-wallpaper-wallpaper-preview.jpg");
+
+#home .item {
+  display: flex;
+  justify-content: center;
+}
+
+#home .item img {
+  width: 250px;
+  height: 300px;
+  border-radius: 100%;
+  border: 10px double#14676a;
+}
+
+#home .item h1 {
+  padding-top: 95px;
+  padding-left: 60px;
+  text-align: center;
+}
+
+#home .item h1 p {
+  font-size: small;
+}
+#gallery .container-section {
+  text-align: center;
 }
