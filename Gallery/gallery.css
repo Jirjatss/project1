@@ -1,0 +1,49 @@
+body {
+  color: bisque;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(Gambar/magic-glowing-black-background-purple-and-green-wallpaper-wallpaper-preview.jpg);
+}
+
+#gallery img {
+  height: 230px;
+}
+
+#gallery .container {
+  margin: 50px;
+}
+#gallery {
+  display: flex;
+}
+#gallery .container {
+  margin-top: 5rem;
+}
+#gallery .container-img {
+  text-align: center;
+  margin: 20px;
+  margin-left: 85px;
+  margin-right: 50px;
+  display: flex;
+}
+#gallery .container-img .row {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#gallery .container-img .card {
+  padding: 2rem;
+  height: 250px;
+  margin: 20px;
+  border: 5px double #d621d5;
+}
+#gallery .container-img img {
+  margin-bottom: 1rem;
+  border: 5px double black;
+}
+
+#gallery .card:hover {
+  transform: scale(1.5);
+  transition: all 0.3s ease-out;
+  z-index: 100;
+  box-shadow: inset 0 0 60px #fff, inset 20px 0 80px #f0f, inset -20 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px;
+}

@@ -3,6 +3,17 @@
   padding: 0;
 }
 
+#index {
+  margin-top: 380px;
+}
+#index h1 {
+  font-size: 50px;
+}
+#index p,
+h1 {
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+}
 body {
   color: bisque;
   font-family: "Montserrat", sans-serif;
@@ -13,13 +24,17 @@ body {
   display: flex;
   position: fixed;
   justify-content: space-between;
-  background-color: #14676a;
   padding: 20px 20px;
-  margin-bottom: 50px;
   width: 98%;
+  top: 0;
+  background-color: #d621d5;
 }
 .nav #myprofile {
   font-family: "Edu TAS Beginner", cursive;
+}
+.nav #myprofile a {
+  color: bisque;
+  text-decoration: none;
 }
 .nav ul {
   display: flex;
@@ -33,33 +48,7 @@ body {
   text-decoration: none;
   font-size: 0.8rem;
 }
-.nav ul li a:hover {
+.nav ul li a:hover,
+.nav #myprofile a:hover {
   color: black;
-}
-
-#home .item {
-  display: flex;
-  justify-content: center;
-  background-color: aqua;
-  margin-top: 50px;
-}
-
-#home .item img {
-  width: 250px;
-  height: 300px;
-  border-radius: 100%;
-  border: 10px double#14676a;
-}
-
-#home .item h1 {
-  padding-top: 95px;
-  padding-left: 60px;
-  text-align: center;
-}
-
-#home .item h1 p {
-  font-size: small;
-}
-#gallery .container-section {
-  text-align: center;
 }

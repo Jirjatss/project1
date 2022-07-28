@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <section class="nav">
+        <div id="myprofile">
+          <h4><a href="../index.html">Muhammad Hijir Sajad</a></h4>
+        </div>
+  
+        <ul>
+          <li><a href="../Home/home.html">Home</a></li>
+          <li><a href="../About/about.html">About</a></li>
+          <li><a href="../Gallery/gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </section>
+    <section id="contact">
+        <div id="gambarcontact" class="container">
+          <h1>Contact</h1>
+        <div id="containercontact" >
+          <fieldset id="gambar" class="container hide">
+            <img src="../Gambar/instagram-logo-png-transparent-0 (1).png" alt="gambar">
+            <h3><a href="https://www.instagram.com/jirjatss/">Instagram</a></h3>
+          </fieldset>
+          <fieldset>
+            <img src="../Gambar/whatssapp.png" alt="gambar">
+            <h3><a href="https://api.whatsapp.com/send/?phone=6281233623106&text&type=phone_number&app_absent=0">Whatssapp</a></h3>
+          </fieldset>
+          <fieldset>
+            <img src="../Gambar/Twitter-logo.svg-removebg-preview.png" alt="gambar">
+            <h3><a href="https://twitter.com/jirjatss">Twitter</a></h3>
+          </fieldset>
+        </div>
+        <div class="container-form">
+          <form id="form">
+            <fieldset>
+              <legend></legend>
+              <div class="nama">
+                <label>Nama  </label>
+                <input type="text" name="nama" cols="60" placeholder="Nama Anda" required/><br><br>
+              </div>
+              <label>Saran </label><br>
+              <textarea type="text" name="saran" rows="5" cols="90" placeholder="                                   Tuliskan Saran Anda" required ></textarea>
+              <div><br>
+                <input type="submit" id="submit-button" value="Submit!" />
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <section id="body">
+        <div id="dialog" class="container hide">
+          <div class="cookiesContent" id="cookiesPopup">
+            <button class="close handle">✖</button>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1047/1047711.png"
+              alt="cookies-img"
+            />
+            <div id="dialog-content">
+              <p>Terimakasih Sarannya Kak</p> 
+              <!-- <h1> Nama User </h1> -->
+              </div><br>
+            <button class="accept handle">OK</button>
+          </div>
+        </div>
+        <button id="alert-button" class="hide">Show Dialog!</button>
+    </section>
+  <script src="contact.js"></script>
+</body>
+</html>

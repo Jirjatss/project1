@@ -1,0 +1,96 @@
+.hide {
+  display: none;
+}
+
+body {
+  color: bisque;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(Gambar/magic-glowing-black-background-purple-and-green-wallpaper-wallpaper-preview.jpg);
+}
+#contact {
+  display: flex;
+  justify-content: center;
+}
+#contact .container {
+  justify-content: center;
+  margin: 5rem;
+  text-align: center;
+}
+#contact #containercontact {
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contact #containercontact fieldset {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 5px double #d621d5;
+}
+
+#contact #containercontact fieldset img {
+  height: 30px;
+}
+#contact #containercontact a {
+  font-size: medium;
+  color: bisque;
+  text-decoration: none;
+}
+#contact .container-form fieldset {
+  padding: 2rem;
+}
+
+#form {
+  justify-content: center;
+}
+
+fieldset {
+  border: 5px double #d621d5;
+}
+
+.cookiesContent {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: bisque;
+  border: 10px double#d621d5;
+  text-align: center;
+  padding: 30px 30px 70px;
+  background-image: url(Gambar/magic-glowing-black-background-purple-and-green-wallpaper-wallpaper-preview.jpg);
+  margin-top: 200px;
+}
+.cookiesContent button.close {
+  width: 30px;
+  font-size: 20px;
+  color: #c0c5cb;
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+}
+.cookiesContent img {
+  width: 82px;
+  margin-bottom: 15px;
+}
+.cookiesContent p {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.cookiesContent button.accept {
+  background-color: #ed6755;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  padding: 14px;
+  font-size: 16px;
+  color: white;
+  box-shadow: 0px 6px 18px -5px #ed6755;
+}
