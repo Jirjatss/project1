@@ -42,6 +42,7 @@ function handler() {
   contact.classList.remove("hide");
   dialog.classList.add("hide");
   alertButton.classList.remove("hide");
+  document.querySelector("dialogContent h1").remove();
 }
 
 for (let i = 0; i < handles.length; i++) {

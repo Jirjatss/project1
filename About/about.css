@@ -4,17 +4,25 @@ body {
   background-image: url(Gambar/magic-glowing-black-background-purple-and-green-wallpaper-wallpaper-preview.jpg);
 }
 #about {
+  display: flex;
   margin-top: 5rem;
   text-align: center;
   display: flex;
   justify-content: center;
 }
 #about .container {
-  margin-top: 5rem;
+  padding: 2rem;
+  border: 5px double #d621d5;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8rem;
   margin-left: 8rem;
   margin-right: 8rem;
 }
 
 p {
   text-align: justify;
+  width: 600px;
+  padding-top: 0rem;
+  padding-left: 2rem;
 }
